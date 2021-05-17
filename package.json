@@ -1,14 +1,19 @@
 {
-	"name": "telegram-bot",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "node index.js"
-	},
-	"author": "And",
-	"license": "ISC",
-	"dependencies": {
-		"telegraf": "^3.38.0"
-	}
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "And",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
