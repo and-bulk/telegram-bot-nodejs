@@ -2,7 +2,7 @@
 
 In main dir
 ```sh
-$ cp .env.example .env  # set env vars here
-$ npm ci
-$ npm start
+cp .env.example .env  # set env vars here
+npm ci
+npm start
 ```
