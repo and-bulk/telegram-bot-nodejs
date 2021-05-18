@@ -1,6 +1,6 @@
 ## Init project
 
-In main dir
+#### In main dir
 
 ```sh
 cp .env.example .env  # set env vars here
