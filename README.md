@@ -1,16 +1,22 @@
-## Init project
+# Init project
 
-#### In main dir
+## In main dir
+
+### Set env vars and install packages
 
 ```
-cp .env.example .env  # set env vars here
+cp .env.example .env
 npm ci
 ```
 
-```
-npm start
-```
+### Compiles and hot-reloads for development
 
 ```
 npm run dev
+```
+
+### Run nodejs file
+
+```
+npm start
 ```
